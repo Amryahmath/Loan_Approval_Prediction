@@ -91,6 +91,11 @@ pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 - The notebook contains tuned model runs and visual outputs.
 - To reproduce current results exactly, keep the random_state values used in the notebook.
 
+## Author
+
+**Amryahmath**  
+GitHub: [@Amryahmath](https://github.com/Amryahmath)
+
 ## Future Improvements
 
 - Add a requirements.txt file for reproducible setup.
