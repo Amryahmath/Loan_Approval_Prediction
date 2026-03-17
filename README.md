@@ -16,6 +16,9 @@ The notebook includes data exploration, preprocessing, hyperparameter tuning, an
 
 - Loan_Approval_Prediction.ipynb: Main end-to-end analysis notebook.
 - loan_approval_data.csv: Dataset used for training and evaluation.
+- requirements.txt: Python dependencies for reproducible setup.
+- .gitignore: Git ignore rules for version control.
+- LICENSE: MIT License for the project.
 - README.md: Project documentation.
 
 ## Dataset
@@ -64,26 +67,37 @@ Additional columns used in the raw dataset but removed during preprocessing:
 
 ## Requirements
 
-Install dependencies before running the notebook:
+Python 3.10+ is required. Install dependencies using the requirements.txt file:
 
-- python 3.10+
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- scikit-learn
-- jupyter
+```bash
+pip install -r requirements.txt
+```
 
-Example installation:
+Or install manually:
 
+```bash
 pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+```
+
+See [requirements.txt](requirements.txt) for specific package versions.
 
 ## How To Run
 
 1. Clone the repository.
-2. Create and activate a virtual environment.
-3. Install dependencies listed above.
-4. Open Loan_Approval_Prediction.ipynb in VS Code or Jupyter.
+2. Create and activate a virtual environment:
+   ```bash
+   python -m venv .venv
+   .venv\Scripts\activate  # On Windows
+   source .venv/bin/activate  # On macOS/Linux
+   ```
+3. Install dependencies from requirements.txt:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Open Loan_Approval_Prediction.ipynb in VS Code or Jupyter:
+   ```bash
+   jupyter notebook Loan_Approval_Prediction.ipynb
+   ```
 5. Run all cells in order.
 
 ## Notes
